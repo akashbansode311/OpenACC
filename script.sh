@@ -15,8 +15,8 @@ ml spack
 spack load gcc/hp5qs7t
 spack load cuda/kr6npmd
 
-export PATH=$HOME/AKASH/nvhpc/Linux_x86_64/25.11/compilers/bin:$PATH
-export NVHPC=$HOME/AKASH/nvhpc/Linux_x86_64/25.11
+export PATH=$HOME/nvhpc/Linux_x86_64/25.11/compilers/bin:$PATH
+export NVHPC=$HOME/nvhpc/Linux_x86_64/25.11
 export LD_LIBRARY_PATH=$NVHPC/compilers/lib:$LD_LIBRARY_PATH
 export MANPATH=$NVHPC/compilers/man:$MANPATH
 which gcc
@@ -30,6 +30,6 @@ nvc++ --version
 
 
 # ---- Run ----
-cd $HOME/AKASH/OPENACC
+cd $HOME/OpenACC
 
-./02.vector_addition_parallel
+./file_name
