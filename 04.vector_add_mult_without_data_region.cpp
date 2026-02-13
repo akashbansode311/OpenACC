@@ -23,6 +23,6 @@ int main() {
         d[i] = a[i] * b[i];
     }
 
-    std::cout << "Vector operations completed with OpenACC.\n";
+    std::cout << "[SUCCESS] Vector operations completed with OpenACC.\n";
     return 0;
 }
