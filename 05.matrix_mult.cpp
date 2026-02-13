@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-#include <openacc.h>
 
 void matrix_mult(int* h_a, int* h_b, int* h_result, int N)
 {
