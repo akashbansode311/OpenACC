@@ -1,5 +1,5 @@
 /**********************************************************************
- * Program : SAXPY (Serial C++)
+ * Program : Single Precision AX Plus Y (SAXPY Serial Program)
  *
  * Operation:
  *      Y = a * X + Y
