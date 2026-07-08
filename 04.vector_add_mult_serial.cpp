@@ -7,7 +7,7 @@ int main()
 {
         const int N = 1000000; // Vector Size
 
-        float a(N), b(N), c(N), d(N);
+        float a[N], b[N], c[N], d[N];
 
         // Initialize the input vectors
         for (int i = 0 ; i < N ; ++i)
