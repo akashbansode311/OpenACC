@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=OpenACC
-#SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
 #SBATCH --output=out_%j.txt
 #SBATCH --error=err_%j.txt
 #SBATCH --reservation=cdac-app
