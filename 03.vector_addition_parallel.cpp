@@ -1,3 +1,13 @@
+/**********************************************************************
+ * Program : Vector Addition using OpenACC
+ *
+ * Operation:
+ *      C[i] = A[i] + B[i]
+ *
+ * Compile:
+ *      nvc++ -acc -Minfo=accel filename.cpp -o filename
+ *
+ *********************************************************************/
 #include <iostream>
 #include <openacc.h>
 
