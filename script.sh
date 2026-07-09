@@ -10,7 +10,7 @@
 #SBATCH --reservation=dsu
 
 ulimit -s unlimited
-# ---- Load modules ----
+# Load the required modules ----
 module load spack
 . /home/apps/spack/share/spack/setup-env.sh
 
@@ -18,8 +18,7 @@ spack load nvhpc@24.3/pesayfx
 
 nvc++ --version
 
-
-# ---- Run ----
 cd $HOME/OpenACC
 
+# Run the OpenACC program ----
 time ./06.matrix_mult_parallel
