@@ -5,15 +5,16 @@
 #SBATCH --time=00:05:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --output=out_%j.txt
-#SBATCH --error=err_%j.txt
-#SBATCH --reservation=cdac-app
+#SBATCH --output=output_%j.out
+#SBATCH --error=error_%j.err
+##SBATCH --reservation=dsu
+
 ulimit -s unlimited
 # ---- Load modules ----
-ml spack
+module load spack
 . /home/apps/spack/share/spack/setup-env.sh
 
-spack load nvhpc@23.11/cc6dko5
+spack load nvhpc@24.3/pesayfx
 
 nvc++ --version
 
