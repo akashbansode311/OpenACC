@@ -1,3 +1,19 @@
+/**********************************************************************
+ * Program : Vector Addition & Multiplication Serial Program
+ *
+ * Operations:
+ *      Vector Addition:
+ *          C[i] = A[i] + B[i]
+ *
+ *      Vector Multiplication:
+ *          D[i] = A[i] * B[i]
+ *
+ * Assignment:
+ * 1. Convert this serial code into an OpenACC parallel program.
+ * 2. Add the required OpenACC directives.
+ * 3. Execute it on the GPU.
+ *
+ *********************************************************************/
 #include <iostream>
 #include <vector>
 
