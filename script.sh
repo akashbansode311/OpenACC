@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --output=output_%j.out
 #SBATCH --error=error_%j.err
-##SBATCH --reservation=dsu
+#SBATCH --reservation=dsu
 
 ulimit -s unlimited
 # ---- Load modules ----
